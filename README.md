@@ -1,7 +1,7 @@
 # Paper bookmarks
-A collection of arbitrary kinds of computer vision papers, organized by [Wan-Cyuan Fan](https://github.com/davidhalladay), [Tzu-Heng Lin](https://lzhbrian.me) and [Haoran Mo](https://github.com/MarkMoHR).
+A collection of arbitrary kinds of computer vision papers, organized by [David Fan](https://github.com/davidhalladay).
 
-Papers are ordered in arXiv first version submitting time (if applicable).
+Papers are ordered in arXiv submitting time (if applicable).
 
 Feel free to send a PR or an issue.
 
