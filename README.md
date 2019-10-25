@@ -20,6 +20,7 @@ Feel free to send a PR or an issue.
 * [object detection](#object-detection)
   * [Relation Network](#Relation-Network)
   * [Tiny things](#Tiny-things)
+  * [RPN](#RPN)
 * [others](#others)
 
 
@@ -110,6 +111,17 @@ Feel free to send a PR or an issue.
 |      | [Paper](https://arxiv.org/pdf/1902.07296.pdf)                | [2019]Augmentation for small object detection                | We conjecture this is due to two factors; (1) only a few images are containing small objects, and (2) small objects do not appear enough even within each image containing them. We thus propose to oversample those images with small objects and augment each of those images by copy-pasting small objects many times |
 |      | [Paper](https://arxiv.org/pdf/1901.01892.pdf)                | [2019]Scale-Aware Trident Networks for Object Detection      | ![01](./images/01.png)                                       |
 |      | [Paper](https://arxiv.org/pdf/1902.06042.pdf)                | [2019]R^2 -CNN: Fast Tiny Object Detection in Large-scale Remote Sensing Images |                                                              |
+
+
+#### RPN
+| V    | Model                                                        | Paper                                                        | Note                                                         |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|      | [Faster-RCNN](https://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks) | [NIPS2015]Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks |                                                              |
+|      | [Anchor-free RPN](https://arxiv.org/abs/1804.09003)          | [2018] An Anchor-Free Region Proposal Network for Faster R-CNN based Text Detection Approaches | In order to better enclose scene text instances of various shapes, it requires to design anchors of various scales, aspect ratios and even orientations manually, which makes anchorbased methods sophisticated and inefficient<br />Compared with a vanilla RPN and FPN-RPN, AF-RPN can get rid of complicated anchor design and achieve higher recall rate on large-scale COCO-Text dataset. |
+|      | [CRAFT](https://arxiv.org/pdf/1604.03239.pdf)                | [CVPR2016] CRAFT Objects from Images                         | ![08](./images/08.png)                                       |
+|      | [Siamese cRPN](https://zpascal.net/cvpr2019/Fan_Siamese_Cascaded_Region_Proposal_Networks_for_Real-Time_Visual_Tracking_CVPR_2019_paper.pdf) | [CVPR2019] Siamese Cascaded Region Proposal Networks for **Real-Time Visual Tracking** | previously proposed one-stage Siamese-RPN trackers degenerate in presence of similar distractors and large scale variation. Addressing these issues, we propose a multi-stage tracking framework, Siamese Cascaded RPN (C-RPN), which consists of a sequence of RPNs cascaded from deep high-level to shallow low-level layers in a Siamese network. |
+|      | [Enhanced-PRN](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0203897&type=printable) | [PLOS2018] An Enhanced Region Proposal Network for object detection using deep learning method |                                                              |
+
 
 
 
