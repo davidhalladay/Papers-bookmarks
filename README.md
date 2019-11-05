@@ -48,6 +48,7 @@ Feel free to send a PR or an issue.
 | V | [Obj-GAN](https://arxiv.org/abs/1902.10740)<br />[Code](https://github.com/jamesli1618/Obj-GAN) | [CVPR2019]Object-driven Text-to-Image Synthesis via Adversarial Training |  |
 | | [Paper](https://arxiv.org/pdf/1811.09845.pdf) | [2019] Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | |
 | V | [Paper](https://arxiv.org/pdf/1908.01741.pdf) | [2019] Visual-Relation Conscious Image Generation from Structured-Text | ![07](./images/07.png) |
+|  | [Paper](https://arxiv.org/pdf/1909.00640.pdf) | [2019] Relationship-Aware Spatial Perception Fusion for Realistic Scene Layout Generation |  |
 
 #### Bbox constrained
 | V | Model           | Paper                                                        | Note                                                |
@@ -93,7 +94,7 @@ Feel free to send a PR or an issue.
 |      | [Chat-crowd](https://arxiv.org/abs/1812.04081)<br />[Code](https://github.com/uvavision/chat-crowd) | Chat-crowd: A Dialog-based Platform for Visual Layout Composition |      |
 |      | [SeqAttnGAN](https://arxiv.org/abs/1812.08352)               | [2019]Sequential Attention GAN for Interactive Image Editing via Dialogue |      |
 
-## object detection
+## object detection & Segmentation
 
 #### Relation Network
 
@@ -130,7 +131,9 @@ Feel free to send a PR or an issue.
 | V    | Model                                                        | Paper                                                        | Note                                                         |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |      | [BSC-GAN](https://www.researchgate.net/publication/327630853_BSCGAN_Deep_Background_Subtraction_with_Conditional_Generative_Adversarial_Networks) | [ICIP2018] Deep Background Subtraction with Conditional Generative Adversarial Networks | This paper proposes a deep background subtraction method based on conditional Generative Adversarial Network (cGAN) |
+|      | [Paper](http://mi.eng.cam.ac.uk/~cipolla/publications/inproceedings/2018-CVPR-multi-task-learning.pdf?fbclid=IwAR2alX5p6v2xVq2GFSPri2mAov7UFK8S8egOWWhsOd29k1JRockLjBazGxI) | [CVPR2018] Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics |                                                              |
 |      | [Paper](https://kgtutorial.github.io)                        | [CVPR2018]Relation Networks for Object Detection             | ![01](./images/02.png)                                       |
 |      | [Paper](https://zpascal.net/cvpr2019/Chen_Multi-Label_Image_Recognition_With_Graph_Convolutional_Networks_CVPR_2019_paper.pdf) | [CVPR2019]Multi-Label Image Recognition with Graph Convolutional Networks∗ |                                                              |
 |      | [Paper](https://arxiv.org/pdf/1909.09953.pdf)                | [2019] Learning Visual Relation Priors for Image-Text Matching and Image Captioning with Neural Scene Graph Generators |                                                              |
 |      | [Paper](https://arxiv.org/pdf/1909.05370.pdf)                | [2019] An Auxiliary Classifier Generative Adversarial Framework for Relation Extraction |                                                              |
+|      |                                                              |                                                              |                                                              |
