@@ -43,12 +43,13 @@ Feel free to send a PR or an issue.
 |      | [GAN-INT-CLS](https://arxiv.org/abs/1605.05396) | [WSDM2018]Mining Knowledge Graphs from Text |     |
 |      | [StoryGAN](https://arxiv.org/abs/1812.02784)<br />[Code](https://github.com/yitong91/StoryGAN) | [CVPR2019]StoryGAN: A Sequential Conditional GAN for Story Visualization |      |
 | V | [MirrorGAN](https://arxiv.org/abs/1903.05854) | [CVPR2019]MirrorGAN: Learning Text-to-image Generation by Redescription ||
-|      | [DM-GAN](https://arxiv.org/abs/1904.01310) | [CVPR2019]DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis ||
-|      | [SD-GAN](https://arxiv.org/abs/1904.01480) | [CVPR2019]Semantics Disentangling for Text-to-Image Generation ||
-| V | [Obj-GAN](https://arxiv.org/abs/1902.10740)<br />[Code](https://github.com/jamesli1618/Obj-GAN) | [CVPR2019]Object-driven Text-to-Image Synthesis via Adversarial Training |  |
-| | [Paper](https://arxiv.org/pdf/1811.09845.pdf) | [2019] Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | |
+|      | [DM-GAN](https://arxiv.org/abs/1904.01310) | [CVPR2019] DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis ||
+|      | [SD-GAN](https://arxiv.org/abs/1904.01480) | [CVPR2019] Semantics Disentangling for Text-to-Image Generation ||
+| V | [Obj-GAN](https://arxiv.org/abs/1902.10740)<br />[Code](https://github.com/jamesli1618/Obj-GAN) | [CVPR2019] Object-driven Text-to-Image Synthesis via Adversarial Training |  |
+| V | [Paper](https://arxiv.org/pdf/1811.09845.pdf) | [ICCV2019] Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | |
 | V | [Paper](https://arxiv.org/pdf/1908.01741.pdf) | [2019] Visual-Relation Conscious Image Generation from Structured-Text | ![07](./images/07.png) |
 |  | [Paper](https://arxiv.org/pdf/1909.00640.pdf) | [2019] Relationship-Aware Spatial Perception Fusion for Realistic Scene Layout Generation |  |
+| | [Paper](https://arxiv.org/pdf/1910.13321v1.pdf) | [2019] Semantic Object Accuracy for Generative Text-to-Image Synthesis | a new model that explicitly models individual objects within an image and a new evaluation metric called Semantic Object Accuracy (SOA) |
 
 #### Bbox constrained
 | V | Model           | Paper                                                        | Note                                                |
@@ -64,24 +65,24 @@ Feel free to send a PR or an issue.
 | V | [MC-GAN](https://arxiv.org/pdf/1805.01123.pdf) | [2018] Multi-conditional Generative Adversarial Network for Image Synthesis | ![05](./images/05.png) |
 | | [SketchyGAN](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_SketchyGAN_Towards_Diverse_CVPR_2018_paper.pdf) | [CVPR2018]SketchyGAN: Towards Diverse and Realistic Sketch to Image Synthesis | |
 | | [ST-GAN](http://openaccess.thecvf.com/content_cvpr_2018/papers/Lin_ST-GAN_Spatial_Transformer_CVPR_2018_paper.pdf) | [CVPR2018] ST-GAN: Spatial Transformer Generative Adversarial Networks for Image Compositing | |
-| | [Fusion-GAN](https://arxiv.org/pdf/1812.05840.pdf) | [CVPR2019] Spatial Fusion GAN for Image Synthesis | ![06](./images/06.png) |
-|      | [Text2Scene](https://arxiv.org/abs/1809.01110)<br />[Code](https://github.com/uvavision/Text2Image) | [CVPR2019]Text2Scene: Generating Abstract Scenes from Textual Descriptions |              |
+| V | [Fusion-GAN](https://arxiv.org/pdf/1812.05840.pdf) | [CVPR2019] Spatial Fusion GAN for Image Synthesis | ![06](./images/06.png) |
+|      | [Text2Scene](https://arxiv.org/abs/1809.01110)<br />[Code](https://github.com/uvavision/Text2Image) | [CVPR2019] Text2Scene: Generating Abstract Scenes from Textual Descriptions |              |
 
 #### Graph 
 | V | Model           | Paper                                                        | Note                                                |
 | ---- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| V | [sg2im](https://arxiv.org/abs/1804.01622)<br />[Code](https://github.com/google/sg2im) | [CVPR2018]Image Generation from Scene Graphs                |               |
-| V | [Graph R-CNN](http://openaccess.thecvf.com/content_ECCV_2018/papers/Jianwei_Yang_Graph_R-CNN_for_ECCV_2018_paper.pdf?fbclid=IwAR12RuIzrKti7ojGyGxS-sX6oqLgz-0UbI2IF6cbqsh5i_yccHH4GRGQVfY) | [ECCV2018]Graph R-CNN for Scene Graph Generation                |               |
+| V | [sg2im](https://arxiv.org/abs/1804.01622)<br />[Code](https://github.com/google/sg2im) | [CVPR2018] Image Generation from Scene Graphs               | Google cloud AI |
+| V | [Graph R-CNN](http://openaccess.thecvf.com/content_ECCV_2018/papers/Jianwei_Yang_Graph_R-CNN_for_ECCV_2018_paper.pdf?fbclid=IwAR12RuIzrKti7ojGyGxS-sX6oqLgz-0UbI2IF6cbqsh5i_yccHH4GRGQVfY) | [ECCV2018] Graph R-CNN for Scene Graph Generation               |               |
 |      | [Paper](https://arxiv.org/abs/1901.03762) | Using Scene Graph Context to Improve Image Generation        |                            |
 
 
 #### Layout
 | V | Model           | Paper                                                        | Note                                                |
 | ---- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|      | [Layout2Im](https://arxiv.org/abs/1811.11389) | [CVPR2019]Image Generation from Layout                      |                                                              |
-| V | [LayoutGAN](https://openreview.net/forum?id=HJxB5sRcFQ) | [ICLR2019]LayoutGAN: Generating Graphic Layouts with Wireframe Discriminator |                                                    |
-|  | [SPADE](http://openaccess.thecvf.com/content_CVPR_2019/papers/Park_Semantic_Image_Synthesis_With_Spatially-Adaptive_Normalization_CVPR_2019_paper.pdf) | [CVPR2019]Semantic Image Synthesis With Spatially-Adaptive Normalization | |
-| | [LostGANs](https://arxiv.org/pdf/1908.07500.pdf) | [2019]Image Synthesis From Reconfigurable Layout and Style | |
+| V | [Layout2Im](https://arxiv.org/abs/1811.11389) | [CVPR2019] Image Generation from Layout                     |                                                              |
+| V | [LayoutGAN](https://openreview.net/forum?id=HJxB5sRcFQ) | [ICLR2019] LayoutGAN: Generating Graphic Layouts with Wireframe Discriminator |                                                    |
+|  | [SPADE](http://openaccess.thecvf.com/content_CVPR_2019/papers/Park_Semantic_Image_Synthesis_With_Spatially-Adaptive_Normalization_CVPR_2019_paper.pdf) | [CVPR2019 ]Semantic Image Synthesis With Spatially-Adaptive Normalization | |
+| | [LostGANs](https://arxiv.org/pdf/1908.07500.pdf) | [2019] Image Synthesis From Reconfigurable Layout and Style | |
 
 
 ## Dialog to Image
@@ -102,8 +103,8 @@ Feel free to send a PR or an issue.
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |      | [R-FCN](https://arxiv.org/pdf/1605.06409.pdf)                | [NIPS2016] R-FCN: Object Detection via Region-based Fully Convolutional Networks | ![12](./images/12.png)                                       |
 |      | [R-FCN++](https://pdfs.semanticscholar.org/f4a2/732d4051b9c4b5d1f057aaa7935be390f51e.pdf) | [AAAI2018] R-FCN++: Towards Accurate Region-Based Fully Convolutional Networks for Object Detection | ![13](./images/13.png)                                       |
-|      | [Faster RCNN](https://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf) | [NIPS2017] Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | ![10](./images/10.png)                                       |
-|      | [Mask RCNN](https://arxiv.org/pdf/1703.06870.pdf)            | [ICCV2017] Mask R-CNN                                        | The method, called Mask R-CNN, extends Faster R-CNN by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Mask R-CNN is simple to train and adds only a small overhead to Faster R-CNN, running at 5 fps<br />![09](./images/09.png) |
+| V    | [Faster RCNN](https://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf) | [NIPS2017] Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | ![10](./images/10.png)                                       |
+| V    | [Mask RCNN](https://arxiv.org/pdf/1703.06870.pdf)            | [ICCV2017] Mask R-CNN                                        | The method, called Mask R-CNN, extends Faster R-CNN by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Mask R-CNN is simple to train and adds only a small overhead to Faster R-CNN, running at 5 fps<br />![09](./images/09.png) |
 
 
 #### Relation Network
@@ -111,7 +112,7 @@ Feel free to send a PR or an issue.
 | V    | Model                                                        | Paper                                                        | Note                                                         |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |      | [Paper](https://arxiv.org/pdf/1711.11575.pdf?fbclid=IwAR2SKIuG2_Izg7BNl6vhXBlAhkwEVxC2yt0ToP2R2CVg6IFKRqmqa-xd3C4) | [CVPR2018]Relation Networks for Object Detection             | This work proposes an object relation module. It processes a set of objects simultaneously through interaction between their appearance feature and geometry, thus allowing modeling of their relations |
-|      | [Reasoning-RCNN](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Reasoning-RCNN_Unifying_Adaptive_Global_Reasoning_Into_Large-Scale_Object_Detection_CVPR_2019_paper.pdf) | [CVPR2019]Reasoning-RCNN: Unifying Adaptive Global Reasoning into Large-scale Object Detection | ![03](./images/03.png)                                       |
+| V    | [Reasoning-RCNN](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Reasoning-RCNN_Unifying_Adaptive_Global_Reasoning_Into_Large-Scale_Object_Detection_CVPR_2019_paper.pdf) | [CVPR2019]Reasoning-RCNN: Unifying Adaptive Global Reasoning into Large-scale Object Detection | ![03](./images/03.png)                                       |
 |      |                                                              |                                                              |                                                              |
 
 #### Tiny things
