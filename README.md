@@ -50,6 +50,7 @@ Feel free to send a PR or an issue.
 | V | [Paper](https://arxiv.org/pdf/1908.01741.pdf) | [2019] Visual-Relation Conscious Image Generation from Structured-Text | ![07](./images/07.png) |
 |  | [Paper](https://arxiv.org/pdf/1909.00640.pdf) | [2019] Relationship-Aware Spatial Perception Fusion for Realistic Scene Layout Generation |  |
 | | [Paper](https://arxiv.org/pdf/1910.13321v1.pdf) | [2019] Semantic Object Accuracy for Generative Text-to-Image Synthesis | a new model that explicitly models individual objects within an image and a new evaluation metric called Semantic Object Accuracy (SOA) |
+| | [Paper](https://arxiv.org/pdf/1805.08318.pdf) | [ICML2019] Self-Attention Generative Adversarial Networks |  |
 
 #### Bbox constrained
 | V | Model           | Paper                                                        | Note                                                |
@@ -134,7 +135,15 @@ Feel free to send a PR or an issue.
 |      | [Siamese RPN](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_High_Performance_Visual_CVPR_2018_paper.pdf) | [CVPR2018] High Performance Visual Tracking with Siamese Region Proposal Network | ![11](./images/11.png)                                       |
 |      | [Siamese cRPN](https://zpascal.net/cvpr2019/Fan_Siamese_Cascaded_Region_Proposal_Networks_for_Real-Time_Visual_Tracking_CVPR_2019_paper.pdf) | [CVPR2019] Siamese Cascaded Region Proposal Networks for **Real-Time Visual Tracking** | previously proposed one-stage Siamese-RPN trackers degenerate in presence of similar distractors and large scale variation. Addressing these issues, we propose a multi-stage tracking framework, Siamese Cascaded RPN (C-RPN), which consists of a sequence of RPNs cascaded from deep high-level to shallow low-level layers in a Siamese network. |
 |      | [Enhanced-PRN](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0203897&type=printable) | [PLOS2018] An Enhanced Region Proposal Network for object detection using deep learning method |                                                              |
+|      | [GA-Nets](https://arxiv.org/pdf/1901.03278.pdf)              | [CVPR2019] Region Proposal by Guided Anchoring               |                                                              |
 
+
+
+## Compressed sensing
+
+| V    | Model                                           | Paper                          | Note                                                         |
+| ---- | ----------------------------------------------- | ------------------------------ | ------------------------------------------------------------ |
+|      | [Deep-CS](https://arxiv.org/pdf/1905.06723.pdf) | [2019] Deep Compressed Sensing | This paper proposes a deep background subtraction method based on conditional Generative Adversarial Network (cGAN) |
 
 
 
@@ -148,4 +157,4 @@ Feel free to send a PR or an issue.
 |      | [Paper](https://zpascal.net/cvpr2019/Chen_Multi-Label_Image_Recognition_With_Graph_Convolutional_Networks_CVPR_2019_paper.pdf) | [CVPR2019]Multi-Label Image Recognition with Graph Convolutional Networks∗ |                                                              |
 |      | [Paper](https://arxiv.org/pdf/1909.09953.pdf)                | [2019] Learning Visual Relation Priors for Image-Text Matching and Image Captioning with Neural Scene Graph Generators |                                                              |
 |      | [Paper](https://arxiv.org/pdf/1909.05370.pdf)                | [2019] An Auxiliary Classifier Generative Adversarial Framework for Relation Extraction |                                                              |
-|      |                                                              |                                                              |                                                              |
+|      | [Paper]([chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/content/web/viewer.html?file=https%3A%2F%2Farxiv.org%2Fpdf%2F1802.10171.pdf](chrome-extension://bjfhmglciegochdpefhhlphglcehbmek/content/web/viewer.html?file=https%3A%2F%2Farxiv.org%2Fpdf%2F1802.10171.pdf)) | Tell Me Where to Look: Guided Attention Inference Network    |                                                              |
